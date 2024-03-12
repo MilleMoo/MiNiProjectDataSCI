@@ -7,7 +7,7 @@ if userinput1 == 1:
                         "1.)often \n"
                         "2.) not \nplease input number : "));
     # Do you change phone often
-    if userinput1 == 1 : 
+    if userinput1 == 2 : 
         userinput1 = int(input("\nDo you prefer installments or paying cash \n"
                         "1.)pay off \n"
                         "2.) cash \nplease input number : "));
@@ -29,7 +29,7 @@ if userinput1 == 1:
         elif userinput1 == 2: 
             print("\nYou use IOS\n") 
     # Do you change phone often
-    elif userinput1 == 2: 
+    elif userinput1 == 1: 
         userinput1 = int(input("\nDo you like zoom camera \n"
                         "1.)like \n"
                         "2.) not \nplease input number : "));
